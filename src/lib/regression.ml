@@ -33,10 +33,6 @@ module type Linear_model_intf = sig
 
   val residuals : t -> float array
   val coefficients : t -> float array
-  (*
-  val confidence_interval : t -> alpha:float -> input -> float * float
-  val prediction_interval : t -> alpha:float -> input -> float * float
-  *)
 
 end
 
